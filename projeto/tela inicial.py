@@ -12,7 +12,7 @@ verde=(0,255,0)
 azul=(0,0,255)
 tela = pygame.display.set_mode((largura,altura))
 def tela_inicial(cor):
-    baner = pygame.image.load('imagens/space.jpg')
+    baner = pygame.image.load('imagens/imagem.jpg')
     gato = pygame.image.load('imagens/gato.png')
     pygame.init()
     tela = pygame.display.set_mode((largura,altura))
